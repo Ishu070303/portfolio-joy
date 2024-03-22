@@ -10,4 +10,4 @@ const NavLink = ({ link }) => {
   )
 }
 
-export default NavLink
+export default NavLink;
