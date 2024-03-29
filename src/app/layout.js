@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.className} w-[100%] min-h-screen bg-gradient-to-b from-blue-50 to-red-100`}
+        className={`${inter.className}`}
       >
         <TransitionProvider>{children}</TransitionProvider>
       </body>
