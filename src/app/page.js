@@ -3,8 +3,8 @@ import Image from "next/image";
 const HomePage = () => {
   return (
     <div className="h-full flex flex-col lg:flex-row px-4 xs:px-8 md:px-12 lg:px-20 xl:px-48">
-      <div className="lg:h-full lg:w-1/2 relative" style={{ height: "500px" }}>
-        <Image src="/hero.png" alt="hero" fill className="object-contain z-0" />
+      <div className="lg:h-full lg:w-1/2 relative" style={{ height: "450px" }}>
+        <Image src="/hero.png" alt="hero" className="object-contain z-0" fill />
       </div>
       <div className="h-1/2 lg:h-full lg:w-1/2 lg:mt-16 flex flex-col gap-4 items-center justify-center">
         <h1 className="text-4xl md:text-6xl font-bold">
