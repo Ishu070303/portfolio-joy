@@ -16,6 +16,7 @@ const Aboutpage = () => {
         <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64">
           {/* Biograpgy Container */}
           <div className="flex flex-col gap-12 justify-center">
+<<<<<<< HEAD
             <h1 className="font-bold text-2xl">BIOGRAPGY</h1>
             <p className="text-lg">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
@@ -46,6 +47,10 @@ const Aboutpage = () => {
               <path d="M12 6V14" stroke="#000000" strokeWidth="1"></path>
               <path d="M15 11L12 14L9 11" stroke="#000000" strokeWidth="1"></path>
             </svg>
+=======
+            <h1>BIOGRAPGY</h1>
+            <p></p>
+>>>>>>> c937e28a0609c17daa0aa4136722ec559aa86e8c
           </div>
 
           {/* Skills */}
